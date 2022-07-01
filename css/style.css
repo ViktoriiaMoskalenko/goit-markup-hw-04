@@ -117,6 +117,70 @@ p {
   color: var(--accent-color);
 }
 
+/* SVG ICONS HEADER */
+
+.icon {
+  display: inline-flex;
+  align-items: center;
+}
+
+.header-icon {
+  fill: #757575;
+  margin-right: 10px;
+}
+
+.header-icon:hover {
+  fill: var(--accent-color);
+}
+
+/* SVG ICONS SECTION OFFER*/
+
+.bg-icon-offer {
+  display: inline-flex;
+  background-color: var(--secondary-bg-color);
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+/* COMAND ICON */
+
+.comand-icon {
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+.comand-icon-bg {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--secondary-bg-color);
+  width: 44px;
+  height: 44px;
+  fill: #afb1b8;
+  border-radius: 50%;
+}
+
+.comand-icon-bg:hover {
+  background-color: var(--accent-color);
+}
+
+.comand-icon-bg + .comand-icon-bg {
+  margin-left: 10px;
+}
+
+.icon-link {
+  fill: #afb1b8;
+}
+
+.icon-link:hover {
+  fill: var(--white-color);
+}
+
+/* HERO */
 .hero {
   text-align: center;
 
@@ -228,6 +292,8 @@ p {
 .comand-text {
   margin-top: 30px;
   margin-bottom: 30px;
+  margin-left: 32px;
+  margin-right: 32px;
 }
 
 .comand-desc {
