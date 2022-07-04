@@ -310,6 +310,11 @@ p {
   padding: 0;
 }
 
+.comand-list {
+  padding: 0;
+  margin: 0;
+}
+
 .comand-icon-bg:hover,
 .comand-icon-bg:focus {
   background-color: var(--accent-color);
