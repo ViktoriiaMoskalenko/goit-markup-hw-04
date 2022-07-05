@@ -13,7 +13,6 @@ body {
   color: var(--main-color);
   font-weight: 700;
   letter-spacing: 0.03em;
-  max-width: 1600px;
 }
 
 .container {
@@ -139,6 +138,7 @@ p {
 
 /*  SECTION HERO */
 .hero {
+  max-width: 1600px;
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
     url(../img/index/bg.jpg);
   background-size: cover;
@@ -172,6 +172,7 @@ p {
 
   padding: 10px 32px;
   margin-top: 30px;
+  border: 0;
   border-radius: 4px;
 
   height: 50px;
@@ -345,7 +346,10 @@ p {
 
 .clients-link {
   display: inline-flex;
-  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 92px;
   margin: 0;
   border: 1px solid #afb1b8;
   border-radius: 4px;
@@ -355,6 +359,8 @@ p {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 0;
+  margin: 0;
 }
 
 .clients-link:hover,
@@ -377,7 +383,7 @@ p {
   text-align: center;
   letter-spacing: 0.03em;
 
-  margin-bottom: 59px;
+  margin-bottom: 50px;
 }
 
 /* FOOTER STYLES */
@@ -442,6 +448,7 @@ address {
 
 .footer-section {
   display: flex;
+  align-items: baseline;
 }
 
 /* FOOTER SVG */
@@ -512,6 +519,7 @@ address {
 
   padding: 6px 22px;
 
+  border: 0;
   border-radius: 4px;
 }
 
